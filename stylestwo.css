@@ -1,0 +1,194 @@
+* {
+	box-sizing:border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav {
+    /* position:fixed;
+    right:0px;
+    top:0px; */
+    position:fixed;
+    display:flex;
+    justify-content:flex-end;
+    width:100%;
+    background-color:yellow;
+    border-radius:20px;
+}
+
+nav {
+    /* border: 5px solid yellow; */
+
+}
+
+nav li {
+    
+}
+
+#container {
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    /* background-color:yellow; */
+   
+    
+}
+
+#goals {
+    margin-top:10px;
+    width:100%;
+    font-size:2em;
+    text-align:center;
+    background-color:yellow;
+    border: 3px solid black;
+    border-radius:50%;
+    color:blue;
+}
+
+.title {
+    font-style:italic;
+    
+}
+
+ #skills {
+     margin-top:5px;
+     width:100%;
+     font-size:2em;
+     text-align:center;
+     background-color:yellow;
+     border: 3px solid black;
+    border-radius:50%;
+    color:blue;
+}
+
+#interests {
+    margin-top:5px;
+    width:100%;
+    font-size:2em;
+    text-align:center;
+    background-color:yellow;
+    border: 3px solid black;
+    border-radius:50%;
+    color:blue;
+}
+
+#buttons{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    width:100%;
+}
+
+#back {
+    position:fixed;
+    left:5px;
+    top:2px;
+    
+} 
+
+#back a {
+    text-decoration:none;
+    color:blue;
+}
+
+
+body {
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+  background: rgb(143, 219, 238);
+  /* margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto; */
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    margin-top:20px;
+    color:blue;
+    font-size:4em;
+    text-decoration:overline underline;  /* The fact that the Y and G in my name cutting through underline are symmetrical is so satisfying. Amazingly this would also work for Kyle Baugh, they're even the same letters that do it. */
+    text-decoration-color:yellow;
+}
+
+.li {
+    list-style:none;
+    padding-left:100px;
+    padding-right:100px;
+}
+
+ol {
+	padding-left:30px;
+    
+}
+
+
+img {
+    border-radius:25%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+img:hover {
+    height:100%;
+    width:100%
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+    }
+
+
+
+.crumb a {
+	color: blue;
+    font-size:1.5em;
+    text-decoration:none;
+    
+}
+
+.crumb a:hover {
+    background-color:rgb(174, 174, 69);
+    border-radius:50%;
+    padding: 10px 10px 10px 10px;
+}
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+#color {
+    color:blue;
+    margin-right:30px;
+	height:75px;
+	width:75px;
+	border-radius:20%;
+	background-color:yellow;
+    font-size:1em;
+}
+
+#place {
+    margin-right:30px;
+	height:75px;
+	width:75px;
+	border-radius:20%;
+	background-color:yellow;
+    color:blue;
+    font-size: 1em;
+}
+
+#ritual {
+    color:blue;
+	height:75px;
+	width:75px;
+	border-radius:20%;
+	background-color:yellow;
+    font-size:1em;
+}
+
